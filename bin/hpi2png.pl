@@ -2,7 +2,7 @@
 
 #
 # @File hpi2png.pl
-# @Author mandl
+# @Author Alexander A. Mandl
 # @Created 22-Mar-2011 18:15:10
 # @Use ./hpi2png.pl input.hpi output.png
 # @Comment Ensure ImageMagick and PerlMagick packages are installed
