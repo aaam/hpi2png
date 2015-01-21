@@ -10,6 +10,7 @@
 # AAM IT Solutions,License::AGPLv3
 #
 
+
 use strict;
 use Image::Magick;
 
