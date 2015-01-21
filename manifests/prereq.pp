@@ -21,10 +21,11 @@ if ! $::osfamily {
     }
   }
 }
-$perlmagick = 'perlmagick'
+
 $perlmagick = $::osfamily ? {
   'RedHat' => 'ImageMagick-perl',
   'Suse'   => 'perl-PerlMagick',
+  default  => 'perlmagick',
 }
 
 $pkgs = ['imagemagick',$perlmagick,'perl']
