@@ -19,9 +19,10 @@ if ( $ARGV[0] =~ $ARGV[1] ) {
 }
 my( $image, $mask, $input, $output, $jpg, $png, $line );
 
+#hpi stores the image in jpg
 $image = Image::Magick->new(magick=>'jpg');
 
-#hpi stores the image in jpg
+#hpi stores the mask in png
 $mask = Image::Magick->new(magick=>'png');
 
 ($input, $output) = ($ARGV[0],$ARGV[1]);
@@ -40,7 +41,6 @@ while($line = <I>){
 #close filedescriptor
 close(I);
 
-#hpi stores the mask in png
 # find the ending png pattern
 ($jpg, $png) = m/^.{32}(.*)(\211PNG.*)$/s;
 
