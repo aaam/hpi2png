@@ -1,6 +1,6 @@
 # hpi2png - Linux Hemera Photo Image Converter and Display 
-Convert hpi ( hemera photo image (tm) ) files into png under any operation systems.
+Convert HPI ( Hemera Photo Image (tm) ) files to PNG under any operating system.
 
-It can handle png or gif outputs
+It creates PNG or GIF files
 
 Usage: ./hpi2png.pl input.hpi output.png
